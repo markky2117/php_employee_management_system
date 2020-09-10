@@ -14,4 +14,3 @@ else {
     echo "Welcome to Admin <br>";
     echo "<a href=logout.php>Logout</a>";
 }
-?>

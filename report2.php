@@ -12,4 +12,3 @@ while($data = mysqli_fetch_row($result)) { //เก็บผลลัพธ์�
     echo "$data[3] -- ";
     echo "$data[4] <br>";
 }
-?>

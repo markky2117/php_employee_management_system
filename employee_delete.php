@@ -14,4 +14,3 @@ echo "ชื่อพนักงาน: ";
 echo "<font color=blue>$data[name]</font><p>";
 echo "<input type=submit value=Confirm>";
 echo "</form>";
-?>

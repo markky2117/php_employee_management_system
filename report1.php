@@ -12,4 +12,3 @@ while($data = mysqli_fetch_array($result)) { //เก็บผลลัพธ์
     echo "$data[salary] -- ";
     echo "$data[departmentID] <br>";
 }
-?>

@@ -1,8 +1,7 @@
 <?php
 include "config.php";
-if(!$conid) {
-    echo "Couldn't connect".mysqli_connect_error();
-
+if (!$conid) {
+    echo "Couldn't connect" . mysqli_connect_error();
 }
 $query = "SELECT * FROM employee e, department d WHERE e.departmentID = d.departmentID AND e.
 employeeID = '$_GET[empid]'";
@@ -32,9 +31,9 @@ echo "<td>แผนก</td>";
 echo "<td><select name=departid>";
 echo "</form>";
 ?>
-<option value="42" <?php if ($data[4] == '42') echo "selected"; ?> >Finance</option>
-<option value="128" <?php if ($data[4] == '128') echo "selected"; ?> >Research and Development</option>
-<option value="130" <?php if ($data[4] == '130') echo "selected"; ?> >Marketing</option>
+<option value="42" <?php if ($data[4] == '42') echo "selected"; ?>>Finance</option>
+<option value="128" <?php if ($data[4] == '128') echo "selected"; ?>>Research and Development</option>
+<option value="130" <?php if ($data[4] == '130') echo "selected"; ?>>Marketing</option>
 </select></td>
 <tr>
     <td><input type="submit" value="Confirm"></td>

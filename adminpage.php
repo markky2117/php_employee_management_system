@@ -27,4 +27,3 @@ else {
     echo "<center><img src=loader.gif></center>";
     echo "<meta http-equiv='refresh' content='1;URL=adminindex.php'/>";
 }
-?>

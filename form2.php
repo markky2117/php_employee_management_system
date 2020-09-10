@@ -14,7 +14,7 @@
     <?php
     if (!isset($_POST['submit'])) {
     ?>
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             ชื่อ <input type="text" size="20" name="name">
             <p>
                 ที่อยู่ <textarea cols="30" rows="10" maxlength="100" name="address"></textarea>
@@ -34,9 +34,7 @@
         </form>
         <hr>
     <?php
-    } 
-    else 
-    {
+    } else {
         echo "ชื่อ $_POST[name] <p>";
         echo "ที่อยู่ $_POST[address] <p>";
         echo "เพศ $_POST[sex] <p>";

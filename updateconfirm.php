@@ -9,4 +9,3 @@ $query_update = "UPDATE employee SET employeeID = '$_POST[empid]', name = '$_POS
 if (mysqli_query($conid, $query_update)) {
     echo "<SCRIPT LANGUAGE='JavaScript'>opener.location.reload();window.close();</SCRIPT>";
 }
-?>
